@@ -21,6 +21,12 @@ const Say = () => {
       <button style={{ color: "blue" }} onClick={() => setColor("blue")}>
         Blue
       </button>
+      <button style={{ color: "Yellow" }} onClick={() => setColor("Yellow")}>
+        Yellow
+      </button>
+      <button style={{ color: "black" }} onClick={() => setColor("black")}>
+        Black
+      </button>
     </div>
   );
 };

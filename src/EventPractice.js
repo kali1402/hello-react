@@ -41,7 +41,7 @@ const EventPractice = () => {
         placeholder="아무거나 입력해 보세요"
         value={message}
         onChange={onChange}
-        onKeyPress={onkeypress}
+        onKeyPress={onKeyPress}
       />
       <button onClick={onClick}>확인</button>
     </div>
