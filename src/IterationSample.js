@@ -23,6 +23,7 @@ const IterationSample = () => {
     setInputText("");
   };
   const onRemove = id => {
+    // console.log("onRemove가 호출되었습니다.");
     const nextNames = names.filter(name => name.id !== id);
     setNames(nextNames);
   };
